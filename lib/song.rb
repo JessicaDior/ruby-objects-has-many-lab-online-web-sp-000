@@ -18,10 +18,15 @@ class Song
   end
 
   def artist_name
+<<<<<<< HEAD
 if artist != nil
   self.artist.name
 else return nil
   end
 end
+=======
+    self.artist.name
+  end
+>>>>>>> 4e7c6a79c9ce91fca12a39f0ffc95894b95fc039
 
 end
